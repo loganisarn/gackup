@@ -7,7 +7,7 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [clj-time "0.5.0"]
                  [incanter "1.4.1"]
-                 [org.clojure/tools.cli "0.2.2"]
+                 [org.clojure/tools.cli "0.2.2"]]
   :main gackup.core
   :aot :all
   )
