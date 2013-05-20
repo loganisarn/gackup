@@ -82,7 +82,7 @@
                    :pfilter (options :prefix-filter)
                    :csize   (options :chunk-size)
                    :mongo-db   (or (options :mongodb)   (get-env "MONGODB"))
-                   :web true
+                   :web false
                    :format  (options :logformat)
                    :verbose (options :verbose *verbose-mode*)
                    :output  (options :out *gackup-output*)}]
