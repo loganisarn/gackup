@@ -44,6 +44,5 @@ Usage
 
 See examples subdirectory: https://github.com/loganisarn/gackup/tree/master/examples
 
-For background info, Visit http://www.loganis.com/Loganis/GAckup_Tools.html
 
 
