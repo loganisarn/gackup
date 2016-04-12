@@ -32,7 +32,7 @@
            ct-indx :x-indexers
            row     (merge m kv)
            waitfn  (fn [x] (+ 5 (* 5 x)))
-           found   (-> (fetch-one coll :where row) first ckey)]
+           found   (get (fetch-one coll :where row) ckey)]
        (cond
         found     found
         (neg? i)  (throw (Exception. (str "(mongo-indexfor! " coll kv ckey m i ")")))
@@ -84,4 +84,3 @@
   (do
     (dorun (map (fn [line] (insert! log-data-name line)) chunk ))
     chunk))
-
